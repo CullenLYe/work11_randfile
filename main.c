@@ -24,9 +24,6 @@ int main() {
   for (i=0; i<5; i++) {
     array[i] = randomint();
   }
-  array[0] = 0;
-  array[1] = 1;
-  array[2] = 2;
   printf("Generating Random Numbers:\n");
   for (i=0; i<10; i++) {
     printf("array[%d]: %d\n", i, array[i]);
